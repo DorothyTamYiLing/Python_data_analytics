@@ -52,6 +52,7 @@ Using Python and popular data analysis libraries, the notebook performs data cle
   * Percentage of guests assigned the same room vs reassigned
 
 📌 *Most guests were assigned the same room type they booked, though some room types show higher reassignment rates.*
+<img width="1263" height="375" alt="Screenshot 2026-02-02 at 2 05 22 PM" src="https://github.com/user-attachments/assets/53ad1b04-45b0-4445-ba17-bb916139e379" />
 
 ---
 
@@ -65,6 +66,7 @@ Analyzed booking proportions across market segments:
 * Corporate & Group bookings
 
 📈 *Online Travel Agencies dominate hotel bookings.*
+<img width="1187" height="352" alt="Screenshot 2026-02-02 at 2 05 31 PM" src="https://github.com/user-attachments/assets/74e974e4-a1b8-429e-abd2-edca6b9534d1" />
 
 (Visualized using an interactive **Plotly pie chart**.)
 
@@ -77,6 +79,7 @@ Analyzed booking proportions across market segments:
 * Displayed results on an **interactive world choropleth map**
 
 🌍 *Portugal, the UK, France, Spain, and Germany are the top guest origin countries.*
+<img width="1165" height="311" alt="Screenshot 2026-02-02 at 2 05 50 PM" src="https://github.com/user-attachments/assets/8709c2a0-8410-457f-9ef4-7238d0c55865" />
 
 ---
 
