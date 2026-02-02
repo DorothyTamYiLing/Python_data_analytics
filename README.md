@@ -1,10 +1,3 @@
-Absolutely — this is a solid analysis, and it *deserves* a clean, professional README 👌
-Below is a **ready-to-paste `README.md`** tailored exactly to what your notebook does.
-
-You can copy this into a file called `README.md` in the same GitHub repo as your `.ipynb`.
-
----
-
 # 🏨 Hotel Booking Data Analysis
 
 ## 📌 Project Overview
