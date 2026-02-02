@@ -89,8 +89,11 @@ Analyzed booking proportions across market segments:
 * Constructed a full arrival date from year, month, and day
 * Analyzed total guests over time
 * Focused on selected room types (e.g., A & D)
+<img width="1004" height="602" alt="Screenshot 2026-02-02 at 3 10 41 PM" src="https://github.com/user-attachments/assets/9b8c7f78-697e-432d-9e4a-32c6b9543973" />
 
-📆 *Clear seasonality observed: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.*
+<img width="970" height="607" alt="Screenshot 2026-02-02 at 3 11 36 PM" src="https://github.com/user-attachments/assets/1dc05867-61e1-407f-a91a-7962ca348687" />
+
+📆 *Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.*
 
 ---
 
