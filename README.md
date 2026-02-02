@@ -89,7 +89,6 @@ Analyzed booking proportions across market segments:
 * Constructed a full arrival date from year, month, and day
 * Analyzed total guests over time
 * Focused on selected room types (e.g., A & D)
-<img width="1004" height="602" alt="Screenshot 2026-02-02 at 3 10 41 PM" src="https://github.com/user-attachments/assets/9b8c7f78-697e-432d-9e4a-32c6b9543973" />
 
 <img width="1054" height="391" alt="Screenshot 2026-02-02 at 4 25 42 PM" src="https://github.com/user-attachments/assets/4ae1ce1e-4957-400d-b2d2-9a91edf719f2" />
 
