@@ -50,9 +50,10 @@ Using Python and popular data analysis libraries, the notebook performs data cle
 
   * Total bookings per room type
   * Percentage of guests assigned the same room vs reassigned
+<img width="1253" height="368" alt="Screenshot 2026-02-02 at 3 01 23 PM" src="https://github.com/user-attachments/assets/24d465a5-42b1-414a-bb44-4557de090d80" />
 
 📌 *Most guests were assigned the same room type they booked, though some room types show higher reassignment rates.*
-<img width="1263" height="375" alt="Screenshot 2026-02-02 at 2 05 22 PM" src="https://github.com/user-attachments/assets/53ad1b04-45b0-4445-ba17-bb916139e379" />
+
 
 ---
 
