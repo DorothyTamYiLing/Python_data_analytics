@@ -41,7 +41,7 @@ Using Python and popular data analysis libraries, the notebook performs data cle
 
   * arrival_date → combined date field
 
-  * Cleaned market segment labels for readability
+* Cleaned market segment labels for readability
 
 ---
 
@@ -93,7 +93,9 @@ Analyzed booking proportions across market segments:
 
 * Constructed a full arrival date from year, month, and day
 * Analyzed total guests over time
-* Focused on selected room types (e.g., A & D)
+* Overall observation as well as selected analyses on most popular room types (e.g., A & D)
+
+<img width="1128" height="648" alt="Screenshot 2026-02-03 at 7 08 23 PM" src="https://github.com/user-attachments/assets/b4df1007-b679-4b1a-b780-929bf94bc41f" />
 
 <img width="1054" height="391" alt="Screenshot 2026-02-02 at 4 25 42 PM" src="https://github.com/user-attachments/assets/4ae1ce1e-4957-400d-b2d2-9a91edf719f2" />
 
