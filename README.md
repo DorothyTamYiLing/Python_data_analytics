@@ -29,14 +29,19 @@ Using Python and popular data analysis libraries, the notebook performs data cle
 
 ## 🧹 Data Cleaning Steps
 
-* Removed invalid bookings where **adults, children, and babies were all zero**
-* Dropped duplicate records
-* Created new derived features:
+* Removed invalid rows where adults, children, and babies were all zero
 
-  * `same_room` (reserved vs assigned room)
-  * `Total_guests`
-  * Cleaned market segment labels
-  * Parsed arrival date for time-series analysis
+* Removed duplicate records
+
+* Created engineered features:
+
+  * same_room → whether assigned room matches reserved room
+
+  * Total_guests → adults + children + babies
+
+  * arrival_date → combined date field
+
+  * Cleaned market segment labels for readability
 
 ---
 
