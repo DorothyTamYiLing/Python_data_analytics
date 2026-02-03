@@ -1,8 +1,6 @@
 # 🏨 Hotel Booking Data Analysis
 
-## 📌 Project Overview
-
-This project explores hotel booking data to uncover insights about **room allocation, market segments, guest origins, and seasonality**.
+So earlier this month, while my 1-yeay baby Avgerinos is testing his walking skills, I bought another Udemy course 'Data Analysis Real world use-cases- Hands on Python' by Shan Singh. After completing it and learning some insigthul analyses (not an advertismentI promise!), I had some ideas of how to get some more interesting insights from this dataset. So, I did a couple of analyses that I thought would be quite relevant as well, which is what this repository is about. For the sake of completness I included the analyses of origin of customers and   thought it is an interesting datset to work on This project explores hotel booking data to uncover insights about **room allocation, market segments, guest origins, and seasonality**.
 Using Python and popular data analysis libraries, the notebook performs data cleaning, exploratory data analysis (EDA), and visualization to answer key business questions relevant to the hospitality industry.
 
 ---
