@@ -133,7 +133,8 @@ Then, visualise this pivot table as a heatmap.
 
 <img width="1017" height="640" alt="Screenshot 2026-02-04 at 2 58 25 PM" src="https://github.com/user-attachments/assets/6a978afa-bc6c-4056-a7e0-806a99c6d38a" />
 
-📈 *Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent.*
+📈 *Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent. 
+One thing that stands out in this heatmap is the lower average ADR for cooperate and groups, which often received negotiated rate due to the large number rooms booked at the same time*
 
 ---
 
