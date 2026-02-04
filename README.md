@@ -135,6 +135,24 @@ Then, visualise this pivot table as a heatmap.
 
 ### 📈 Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent. It is in contrast with the lower average ADR for cooperate and groups, which often received negotiated rate due to the large number rooms booked at the same time. The reasons why room type G and H generate higher ADR is uncertain, it could be due to room specifications (which we lack) such as luxury room type.
 
+To test the statistical significance of these differences identified visually in the heatmap, I imported library **scipy.stats** to conduct Kruskal–Wallis test on ADR between both 1)market segments, and 2)room types
+
+Here are the statistics,
+
+Between market segments
+
+Kruskal–Wallis statistic: 14884.584
+
+P-value: 0.00000
+
+Between room types
+
+Kruskal–Wallis statistic: 12594.264
+
+P-value: 0.00000
+
+It means the differences in ADR between market segments and between room types are statistically significant (p<0.05, rejecting the null hypothesis that the ADR distributions are the same across all market segments).The extent of ADR separation is also large as indicated by the large Kruskal–Wallis statistic.
+
 ---
 
 ## 💡 Key Takeaways
