@@ -139,10 +139,10 @@ Then, visualise this pivot table as a heatmap.
 
 ## 💡 Key Takeaways
 
-* Room reassignment exists but is relatively limited
-* Online channels are the primary booking source
-* Guest arrivals show strong geographic concentration
-* Seasonal patterns are significant and consistent
+* demand is strongly driven by European markets, with clear seasonality patterns peaking in summer months.
+* Room type A dominates reservations across all market segments, explaining both its high booking volume and comparatively lower assignment rate
+* Online Travel Agencies are the primary demand driver
+* Room type G, H, and F are higher-ends rooms that deliver the strongest revenue per booking. Together with the primary demand driver market segments (Online/Offline Travel Agencies and Direct booking), they suggest opportunities for targeted pricing, channel optimization, and upselling strategies.
 
 ---
 
