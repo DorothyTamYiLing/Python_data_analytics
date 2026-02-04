@@ -96,7 +96,8 @@ In the Udemy course, seasonality of all room types combined was analysed. Some s
 
 For a change, I have decided to visualise the booking proportions across market segments using treemap instead of the traditional pie chart.
 
-<img width="761" height="113" alt="Screenshot 2026-02-04 at 2 06 19 PM" src="https://github.com/user-attachments/assets/ad657fa2-64d6-465e-a5ad-2af36cda79cd" />
+<img width="924" height="293" alt="Screenshot 2026-02-04 at 2 13 25 PM" src="https://github.com/user-attachments/assets/ef09ac51-3bb7-4680-bcaa-0f278a2a5584" />
+
 
 (Visualized using an interactive **Plotly pie chart**.)
 
