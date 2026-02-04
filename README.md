@@ -63,7 +63,7 @@ Then visualise:
 
 <img width="1253" height="368" alt="Screenshot 2026-02-02 at 3 01 23 PM" src="https://github.com/user-attachments/assets/24d465a5-42b1-414a-bb44-4557de090d80" />
 
-📌 *Inference: Most guests were assigned the same room type they booked, though some room types show higher reassignment rates. Room type A has a lower assignment rate among other room type (except room type L for the low booking number), probably due to the very high number of booking it received*
+### 📌 Inference: Most guests were assigned the same room type they booked, though some room types show higher reassignment rates. Room type A has a lower assignment rate among other room type (except room type L for the low booking number), probably due to the very high number of booking it received
 
 Note: I think we would have a better picture if we have the total number of available rooms for each room type, as it could really influence the assignment rate!
 
@@ -88,7 +88,7 @@ In the Udemy course, seasonality of all room types combined was analysed. Some s
 
 <img width="1054" height="391" alt="Screenshot 2026-02-02 at 4 25 42 PM" src="https://github.com/user-attachments/assets/4ae1ce1e-4957-400d-b2d2-9a91edf719f2" />
 
-📆 *Inference: Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.*
+### 📆 Inference: Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.
 
 ---
 
@@ -101,7 +101,7 @@ For a change, I have decided to visualise the booking proportions across market 
 
 (Visualized using an interactive **Plotly pie chart**.)
 
-📈 *Inference: Online Travel Agencies dominate hotel bookings.*
+### 📈 Inference: Online Travel Agencies dominate hotel bookings.
 
 ---
 
@@ -119,7 +119,7 @@ My next queestion would be, since we have a couple of room types and market segm
 
 Both of looked informative. However, I am interested in the intention/peference of the market segment, at the end day it is the market who choose the room, not the other way round! **I would choose the second figure.**
 
-📈 *Inference: Based on the second figure, all known market segments tend to reserve room type A, which explains the highest room type A reservation among all room types.*
+### 📈 Inference: Based on the second figure, all known market segments tend to reserve room type A, which explains the highest room type A reservation among all room types.
 
 ---
 
@@ -133,8 +133,8 @@ Then, visualise this pivot table as a heatmap.
 
 <img width="1017" height="640" alt="Screenshot 2026-02-04 at 2 58 25 PM" src="https://github.com/user-attachments/assets/6a978afa-bc6c-4056-a7e0-806a99c6d38a" />
 
-📈 *Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent. 
-It is in contrast with the lower average ADR for cooperate and groups, which often received negotiated rate due to the large number rooms booked at the same time*
+### 📈 Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent. 
+It is in contrast with the lower average ADR for cooperate and groups, which often received negotiated rate due to the large number rooms booked at the same time
 
 ---
 
