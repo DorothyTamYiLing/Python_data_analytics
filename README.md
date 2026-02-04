@@ -51,23 +51,24 @@ Here are the simple steps:
 
 ### Inference: Portugal, the UK, France, Spain, and Germany are the top guest origin countries. Seem that our hotel is very appealing to European holiday maker!
 
-Room Type Booking & Allocation
+### 2️⃣ Room Type booking and Allocation
 
+Since there are a number of room types in the hotels, I am interested in the preference of guests for each room type, as well as how likely it is for them to get what they reserved.
 
-* Counted bookings by **reserved room type**
-* Compared **reserved vs assigned rooms**
-* Visualized:
+The key for this analysis is to create a new column to show, for each room type,  how many bookings were assigned the same room as the reserevd one. 
+<img width="440" height="348" alt="Screenshot 2026-02-04 at 12 06 50 PM" src="https://github.com/user-attachments/assets/3ca569a3-8ee4-4edb-b146-9904d515f920" />
 
-  * Total bookings per room type
-  * Percentage of guests assigned the same room vs reassigned
+Then visualise:
+
 <img width="1253" height="368" alt="Screenshot 2026-02-02 at 3 01 23 PM" src="https://github.com/user-attachments/assets/24d465a5-42b1-414a-bb44-4557de090d80" />
 
-📌 *Most guests were assigned the same room type they booked, though some room types show higher reassignment rates.*
+📌 *Most guests were assigned the same room type they booked, though some room types show higher reassignment rates. Room type A has a lower assignment rate among other room type (except room type L for the low booking number), probably due to the very high number of booking it received*
 
+Note: I think we would have a better picture if we have the total number of available rooms for each room type, as it could really influence the assignment rate!
 
 ---
 
-### 2️⃣ Market Segment Distribution
+###  Market Segment Distribution
 
 Analyzed booking proportions across market segments:
 
