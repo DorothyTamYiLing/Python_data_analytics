@@ -28,7 +28,6 @@ This project explores hotel booking data to uncover insights about **guest origi
 
 * Removed invalid rows where number of adults, children, and babies guests were all zero
 * Removed duplicate records
-* Created new features for plot:
 * Concatenated fields to create new arrival date column with style YYYY-MM-DD
 * Cleaned market segment labels for readability (e.g. 'Offline Travel Agent / Tour Operator' instead of 'Offline TA/TO')
 
