@@ -125,13 +125,13 @@ Both of looked informative. However, I am interested in the intention/peference 
 
 ### Revenue hotspot : Which combination of reserved room type and market segment generates the most revenue per booking?
 
-To answer this question, I computed the average daily rate (ADR) in combinations of reserved room type and market segment, and put them in form of a pivot table.
+To answer this question, I computed the median of average daily rate (ADR) in combinations of reserved room type and market segment, and put them in form of a pivot table. Average daily rate represents the average daily price paid per night in a booking (Price paid for the entire stay / number of nights). I used median instead of mean, taking into account that there could be outliers in the distribution.
 
-<img width="646" height="442" alt="Screenshot 2026-02-04 at 2 56 39 PM" src="https://github.com/user-attachments/assets/9f3e9ee2-8e07-47e5-9dfc-92b2a60ad4f9" />
+<img width="665" height="439" alt="Screenshot 2026-02-04 at 4 23 36 PM" src="https://github.com/user-attachments/assets/b1b41e3c-7070-48df-ba2a-163b2e8cdc55" />
 
 Then, visualise this pivot table as a heatmap.
 
-<img width="1017" height="640" alt="Screenshot 2026-02-04 at 2 58 25 PM" src="https://github.com/user-attachments/assets/6a978afa-bc6c-4056-a7e0-806a99c6d38a" />
+<img width="1025" height="643" alt="Screenshot 2026-02-04 at 4 24 00 PM" src="https://github.com/user-attachments/assets/2f0c6689-bca8-48bd-98d8-7c82b6d00fc5" />
 
 ### 📈 Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent. It is in contrast with the lower average ADR for cooperate and groups, which often received negotiated rate due to the large number rooms booked at the same time
 
