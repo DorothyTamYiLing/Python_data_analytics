@@ -97,6 +97,7 @@ In the Udemy course, seasonality of all room types combined was analysed. Some s
 For a change, I have decided to visualise the booking proportions across market segments using treemap instead of the traditional pie chart.
 
 <img width="761" height="113" alt="Screenshot 2026-02-04 at 2 06 19 PM" src="https://github.com/user-attachments/assets/ad657fa2-64d6-465e-a5ad-2af36cda79cd" />
+
 (Visualized using an interactive **Plotly pie chart**.)
 
 📈 *Inference: Online Travel Agencies dominate hotel bookings.*
