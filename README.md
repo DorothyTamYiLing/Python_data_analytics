@@ -117,39 +117,23 @@ My next queestion would be, since we have a couple of room types and market segm
 
 <img width="1030" height="597" alt="Screenshot 2026-02-04 at 2 34 08 PM" src="https://github.com/user-attachments/assets/9addc2ec-bb98-41fb-9089-798e9b9d3a70" />
 
-Both of looked informative. However, I am interested in the intention/peference of the market segment, at the end day it is the market who choose the room, not the other way round! I would choose the second figure.
+Both of looked informative. However, I am interested in the intention/peference of the market segment, at the end day it is the market who choose the room, not the other way round! **I would choose the second figure.**
 
 📈 *Inference: Based on the second figure, all known market segments tend to reserve room type A, which explains the highest room type A reservation among all room types.*
 
 ---
 
-## 📁 Repository Structure
+### Revenue hotspot : Which combination of reserved room type and market segment generates the most revenue per booking?
 
-```text
-├── hotel_bookings_analysis.ipynb
-├── hotel_bookings.csv
-└── README.md
-```
+To answer this question, I computed the average daily rate (ADR) in combinations of reserved room type and market segment, and put them in form of a pivot table.
 
----
+<img width="646" height="442" alt="Screenshot 2026-02-04 at 2 56 39 PM" src="https://github.com/user-attachments/assets/9f3e9ee2-8e07-47e5-9dfc-92b2a60ad4f9" />
 
-## ▶️ How to Run the Notebook
+Then, visualise this pivot table as a heatmap.
 
-1. Clone the repository:
+<img width="1017" height="640" alt="Screenshot 2026-02-04 at 2 58 25 PM" src="https://github.com/user-attachments/assets/6a978afa-bc6c-4056-a7e0-806a99c6d38a" />
 
-   ```bash
-   git clone https://github.com/your-username/hotel-booking-analysis.git
-   ```
-2. Install dependencies:
-
-   ```bash
-   pip install pandas matplotlib seaborn plotly chart-studio
-   ```
-3. Open the notebook:
-
-   ```bash
-   jupyter notebook
-   ```
+📈 *Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent.*
 
 ---
 
