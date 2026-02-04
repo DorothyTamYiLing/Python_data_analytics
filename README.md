@@ -1,6 +1,6 @@
 # 🏨 Hotel Booking Data Analysis
 
-So earlier this month, I bought another Udemy course 'Data Analysis Real world use-cases- Hands on Python' by Shan Singh. After completing it and learning some insigthul analyses, I had some ideas of how to get some more interesting insights from this dataset. So, I did a couple of extra analyses, which is what this repository is about. For the sake of completness I included the analyses of origin of customers as part of the exploratory analysis.
+So earlier this month, I bought another Udemy course 'Data Analysis Real world use-cases- Hands on Python' by Shan Singh. After completing it and learning some insigthul analyses, I had some ideas of how to get some more interesting insights from this dataset. So, I did a couple of extra analyses, which is what this repository is about. For the sake of completness, I included the analyses of origin of customers as part of the exploratory analysis.
 
 This project explores hotel booking data to uncover insights about **guest origins,room allocation, market segments and room types, guest origins, and seasonality** in order to answer key business questions relevant to the hospitality industry.
 
@@ -37,17 +37,19 @@ Note: I have decided to include the cancelled bookings as I am interested in int
 
 ## 📊 Analyses & Insights
 
-### 1️⃣ Guest Origin Spatial Analysis
+### 1️⃣ Guest Origin Spatial Analysis 🌍
 
 One analysis from the Udemy course that I have decided to keep for this repository is the guest origin heatmap, as I could not think of a better way to visualise the guest number from each country than using a world heatmap!
 
 Here are the simple steps:
-* Aggregated guests by country
+* Aggregated guests by country, remember to use `.reset_index()` to create an extra index column!
+<img width="291" height="418" alt="Screenshot 2026-02-04 at 12 02 55 PM" src="https://github.com/user-attachments/assets/002b6a23-3666-4212-b078-62a44390ea75" />
+
 * Displayed results on an **interactive world choropleth map**
 
-🌍 *Portugal, the UK, France, Spain, and Germany are the top guest origin countries.*
 <img width="1165" height="311" alt="Screenshot 2026-02-02 at 2 05 50 PM" src="https://github.com/user-attachments/assets/8709c2a0-8410-457f-9ef4-7238d0c55865" />
 
+## Inference: Portugal, the UK, France, Spain, and Germany are the top guest origin countries. Seem that our hotel is very appealing to European holiday maker!
 
 Room Type Booking & Allocation
 
