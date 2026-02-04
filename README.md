@@ -63,7 +63,7 @@ Then visualise:
 
 <img width="1253" height="368" alt="Screenshot 2026-02-02 at 3 01 23 PM" src="https://github.com/user-attachments/assets/24d465a5-42b1-414a-bb44-4557de090d80" />
 
-📌 *Most guests were assigned the same room type they booked, though some room types show higher reassignment rates. Room type A has a lower assignment rate among other room type (except room type L for the low booking number), probably due to the very high number of booking it received*
+📌 *Inference: Most guests were assigned the same room type they booked, though some room types show higher reassignment rates. Room type A has a lower assignment rate among other room type (except room type L for the low booking number), probably due to the very high number of booking it received*
 
 Note: I think we would have a better picture if we have the total number of available rooms for each room type, as it could really influence the assignment rate!
 
@@ -86,34 +86,38 @@ Then, we concatenate relevant columns to get a date column in form of YYYY-MM-DD
 
 In the Udemy course, seasonality of all room types combined was analysed. Some seasonality was observed with higher arrivals in summer time compared to winter time. Can we see the same sesonality at the level of room type? I repeated the same analysis but only focusing on the most popular room tyoe, i.e. roomm type A and D.
 
-
-
-<img width="1128" height="648" alt="Screenshot 2026-02-03 at 7 08 23 PM" src="https://github.com/user-attachments/assets/b4df1007-b679-4b1a-b780-929bf94bc41f" />
-
 <img width="1054" height="391" alt="Screenshot 2026-02-02 at 4 25 42 PM" src="https://github.com/user-attachments/assets/4ae1ce1e-4957-400d-b2d2-9a91edf719f2" />
 
-📆 *Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.*
+📆 *Inference: Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.*
 
+---
 
-### 4️⃣ Market Segment Distribution
+### 4️⃣ Market Segment Distribution: Who Were Booking Our Hotel?
 
-Analyzed booking proportions across market segments:
+For a change, I have decided to visualise the booking proportions across market segments using treemap instead of the traditional pie chart.
 
-* Online Travel Agencies
-* Offline Travel Agents / Tour Operators
-* Direct bookings
-* Corporate & Group bookings
-
-📈 *Online Travel Agencies dominate hotel bookings.*
-
+<img width="761" height="113" alt="Screenshot 2026-02-04 at 2 06 19 PM" src="https://github.com/user-attachments/assets/ad657fa2-64d6-465e-a5ad-2af36cda79cd" />
 (Visualized using an interactive **Plotly pie chart**.)
 
+📈 *Inference: Online Travel Agencies dominate hotel bookings.*
 
 ---
 
+### Market segment and Reserved Room Type 
 
----
+My next queestion would be, since we have a couple of room types and market segments, does certain market segment tend to reserve certain room type? We can look at the data from two different perspectives:
 
+1) Given a reserved room type, what is the booking proportion across different market segment?
+
+<img width="1098" height="650" alt="Screenshot 2026-02-04 at 2 23 02 PM" src="https://github.com/user-attachments/assets/33c0a308-74d8-489b-a282-a7afd9bcfe47" />
+
+2) Given a market segment, what is the boooking proportion across room types?
+
+<img width="1030" height="597" alt="Screenshot 2026-02-04 at 2 34 08 PM" src="https://github.com/user-attachments/assets/9addc2ec-bb98-41fb-9089-798e9b9d3a70" />
+
+Both of looked informative. However, I am interested in the intention/peference of the market segment, at the end day it is the market who choose the room, not the other way round! I would choose the second figure.
+
+📈 *Inference: Based on the second figure, all known market segments tend to reserve room type A, which explains the highest room type A reservation among all room types.*
 
 ---
 
