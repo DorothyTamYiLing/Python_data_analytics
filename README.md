@@ -133,7 +133,7 @@ Then, visualise this pivot table as a heatmap.
 
 <img width="1025" height="643" alt="Screenshot 2026-02-04 at 4 24 00 PM" src="https://github.com/user-attachments/assets/2f0c6689-bca8-48bd-98d8-7c82b6d00fc5" />
 
-### 📈 Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent. It is in contrast with the lower average ADR for cooperate and groups, which often received negotiated rate due to the large number rooms booked at the same time
+### 📈 Inference: According to the heatmap, the hotspots of revenue mainly come from Room G, H with market segment Direct booking, Offline Travel Agent/Tour Operator and Online Travel Agent, as well as room F with Online Travel Agent. It is in contrast with the lower average ADR for cooperate and groups, which often received negotiated rate due to the large number rooms booked at the same time. The reasons why room type G and H generate higher ADR is uncertain, it could be due to room specifications (which we lack) such as luxury room type.
 
 ---
 
