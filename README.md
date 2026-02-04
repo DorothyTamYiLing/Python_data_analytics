@@ -56,6 +56,7 @@ Here are the simple steps:
 Since there are a number of room types in the hotels, I am interested in the preference of guests for each room type, as well as how likely it is for them to get what they reserved.
 
 The key for this analysis is to create a new column to show, for each room type,  how many bookings were assigned the same room as the reserevd one. 
+
 <img width="440" height="348" alt="Screenshot 2026-02-04 at 12 06 50 PM" src="https://github.com/user-attachments/assets/3ca569a3-8ee4-4edb-b146-9904d515f920" />
 
 Then visualise:
@@ -68,7 +69,33 @@ Note: I think we would have a better picture if we have the total number of avai
 
 ---
 
-###  Market Segment Distribution
+### 3️⃣ Seasonality in Guest Arrivals. 
+
+Usually, people like to make holiday during summer time, let's see if it shows in our data too!
+
+Since we do not have a column that contain full arrival date information (we only have 'arrival_date_year', 'arrival_date_month', 'arrival_date_week_number' and 'arrival_date_day_of_month'). We have to construct it ourselves.
+
+First, we convert the month information from it english name form to arabic number form using a dictionary, and use it as a new column 'arrival_date_month_index':
+
+`dict_month = {'July':7, 'August':8, 'September':9, 'October':10, 'November':11, 'December':12,
+       'January':1, 'February':2, 'March':3, 'April':4, 'May':5, 'June':6}`
+
+Then, we concatenate relevant columns to get a date column in form of YYYY-MM-DD
+
+<img width="761" height="113" alt="Screenshot 2026-02-04 at 2 06 19 PM" src="https://github.com/user-attachments/assets/1f0b28e0-dab3-4ea0-b78c-fb814adf7f0a" />
+
+In the Udemy course, seasonality of all room types combined was analysed. Some seasonality was observed with higher arrivals in summer time compared to winter time. Can we see the same sesonality at the level of room type? I repeated the same analysis but only focusing on the most popular room tyoe, i.e. roomm type A and D.
+
+
+
+<img width="1128" height="648" alt="Screenshot 2026-02-03 at 7 08 23 PM" src="https://github.com/user-attachments/assets/b4df1007-b679-4b1a-b780-929bf94bc41f" />
+
+<img width="1054" height="391" alt="Screenshot 2026-02-02 at 4 25 42 PM" src="https://github.com/user-attachments/assets/4ae1ce1e-4957-400d-b2d2-9a91edf719f2" />
+
+📆 *Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.*
+
+
+### 4️⃣ Market Segment Distribution
 
 Analyzed booking proportions across market segments:
 
@@ -78,27 +105,15 @@ Analyzed booking proportions across market segments:
 * Corporate & Group bookings
 
 📈 *Online Travel Agencies dominate hotel bookings.*
-<img width="1187" height="352" alt="Screenshot 2026-02-02 at 2 05 31 PM" src="https://github.com/user-attachments/assets/74e974e4-a1b8-429e-abd2-edca6b9534d1" />
 
 (Visualized using an interactive **Plotly pie chart**.)
 
-3️⃣
----
-
 
 ---
 
-### 4️⃣ Seasonality in Guest Arrivals
 
-* Constructed a full arrival date from year, month, and day
-* Analyzed total guests over time
-* Overall observation as well as selected analyses on most popular room types (e.g., A & D)
+---
 
-<img width="1128" height="648" alt="Screenshot 2026-02-03 at 7 08 23 PM" src="https://github.com/user-attachments/assets/b4df1007-b679-4b1a-b780-929bf94bc41f" />
-
-<img width="1054" height="391" alt="Screenshot 2026-02-02 at 4 25 42 PM" src="https://github.com/user-attachments/assets/4ae1ce1e-4957-400d-b2d2-9a91edf719f2" />
-
-📆 *Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.*
 
 ---
 
