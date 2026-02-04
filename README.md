@@ -1,51 +1,56 @@
 # 🏨 Hotel Booking Data Analysis
 
-So earlier this month, while my 1-yeay baby Avgerinos is testing his walking skills, I bought another Udemy course 'Data Analysis Real world use-cases- Hands on Python' by Shan Singh. After completing it and learning some insigthul analyses (not an advertismentI promise!), I had some ideas of how to get some more interesting insights from this dataset. So, I did a couple of analyses that I thought would be quite relevant as well, which is what this repository is about. For the sake of completness I included the analyses of origin of customers and   thought it is an interesting datset to work on This project explores hotel booking data to uncover insights about **room allocation, market segments, guest origins, and seasonality**.
-Using Python and popular data analysis libraries, the notebook performs data cleaning, exploratory data analysis (EDA), and visualization to answer key business questions relevant to the hospitality industry.
+So earlier this month, I bought another Udemy course 'Data Analysis Real world use-cases- Hands on Python' by Shan Singh. After completing it and learning some insigthul analyses, I had some ideas of how to get some more interesting insights from this dataset. So, I did a couple of extra analyses, which is what this repository is about. For the sake of completness I included the analyses of origin of customers as part of the exploratory analysis.
+
+This project explores hotel booking data to uncover insights about **guest origins,room allocation, market segments and room types, guest origins, and seasonality** in order to answer key business questions relevant to the hospitality industry.
 
 ---
 
 ## 📂 Dataset
 
-* **Source:** Hotel Booking Dataset (CSV)
-* **File:** `hotel_bookings.csv`
-* **Records:** ~119,000 bookings
-* **Hotels:** Resort Hotel & City Hotel (analyzed together)
+* **Dataset:** Hotel Booking Dataset (CSV) with ~119,000 bookings
 * **Features:** Booking dates, room types, guests, market segments, cancellations, country of origin, pricing, and more.
-
+* **Hotels:** Resort Hotel & City Hotel (analyzed together)
+  
 ---
 
-## 🛠️ Tools & Libraries
+## 🛠️ Python Tools & Libraries
 
-* **Python**
-* **pandas** – data cleaning & manipulation
-* **matplotlib / seaborn** – static visualizations
-* **plotly** – interactive charts & maps
+* **pandas** 
+* **matplotlib** 
+* **seaborn**
+* **plotly (for interactive plots!)**
 * **Jupyter Notebook**
 
 ---
 
 ## 🧹 Data Cleaning Steps
 
-* Removed invalid rows where adults, children, and babies were all zero
-
+* Removed invalid rows where number of adults, children, and babies guests were all zero
 * Removed duplicate records
-
-* Created engineered features:
-
-  * same_room → whether assigned room matches reserved room
-
-  * Total_guests → adults + children + babies
-
-  * arrival_date → combined date field
-
-* Cleaned market segment labels for readability
+* Created new features for plot:
+* Concatenated fields to create new arrival date column with style YYYY-MM-DD
+* Cleaned market segment labels for readability (e.g. 'Offline Travel Agent / Tour Operator' instead of 'Offline TA/TO')
+Note: I have decided to include the cancelled bookings as I am interested in intention of guests making a booking in the hotel, regardless of whether they cancelled the booking due to various personal reasons.
 
 ---
 
-## 📊 Key Analyses & Insights
+## 📊 Analyses & Insights
 
-### 1️⃣ Room Type Booking & Allocation
+### 1️⃣ Guest Origin Spatial Analysis
+
+One analysis from the Udemy course that I have decided to keep for this repository is the guest origin heatmap, as I could not think of a better way to visualise the guest number from each country than using a world heatmap!
+
+Here are the simple steps:
+* Aggregated guests by country
+* Displayed results on an **interactive world choropleth map**
+
+🌍 *Portugal, the UK, France, Spain, and Germany are the top guest origin countries.*
+<img width="1165" height="311" alt="Screenshot 2026-02-02 at 2 05 50 PM" src="https://github.com/user-attachments/assets/8709c2a0-8410-457f-9ef4-7238d0c55865" />
+
+
+Room Type Booking & Allocation
+
 
 * Counted bookings by **reserved room type**
 * Compared **reserved vs assigned rooms**
@@ -74,16 +79,9 @@ Analyzed booking proportions across market segments:
 
 (Visualized using an interactive **Plotly pie chart**.)
 
+3️⃣
 ---
 
-### 3️⃣ Spatial Analysis: Guest Origins
-
-* Analyzed **non-cancelled bookings only**
-* Aggregated guests by country
-* Displayed results on an **interactive world choropleth map**
-
-🌍 *Portugal, the UK, France, Spain, and Germany are the top guest origin countries.*
-<img width="1165" height="311" alt="Screenshot 2026-02-02 at 2 05 50 PM" src="https://github.com/user-attachments/assets/8709c2a0-8410-457f-9ef4-7238d0c55865" />
 
 ---
 
@@ -143,7 +141,6 @@ Analyzed booking proportions across market segments:
 ## ✨ Future Improvements
 
 * Separate analysis by hotel type (Resort vs City)
-* Cancellation prediction modeling
-* Revenue and ADR trend analysis
+* Excluding cancelled booking for comparison
 * Weekly / monthly aggregation for smoother seasonality trends
 
