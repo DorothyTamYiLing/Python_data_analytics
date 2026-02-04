@@ -49,7 +49,7 @@ Here are the simple steps:
 
 <img width="1165" height="311" alt="Screenshot 2026-02-02 at 2 05 50 PM" src="https://github.com/user-attachments/assets/8709c2a0-8410-457f-9ef4-7238d0c55865" />
 
-## Inference: Portugal, the UK, France, Spain, and Germany are the top guest origin countries. Seem that our hotel is very appealing to European holiday maker!
+### Inference: Portugal, the UK, France, Spain, and Germany are the top guest origin countries. Seem that our hotel is very appealing to European holiday maker!
 
 Room Type Booking & Allocation
 
