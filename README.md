@@ -143,7 +143,7 @@ Between market segments: Kruskal–Wallis statistic: 14884.584; P-value: 0.00000
 
 Between room types: Kruskal–Wallis statistic: 12594.264: P-value: 0.00000
 
-It means the differences in ADR between market segments and between room types are statistically significant (p<0.05, rejecting the null hypothesis that the ADR distributions are the same across all market segments).The extent of ADR separation is also large as indicated by the large Kruskal–Wallis statistic.
+### Statistic Inference: It means the differences in ADR between market segments and between room types are statistically significant (p<0.05, rejecting the null hypothesis that the ADR distributions are the same across all market segments).The extent of ADR separation is also large as indicated by the large Kruskal–Wallis statistic.
 
 ---
 
