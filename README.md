@@ -86,7 +86,9 @@ Then, we concatenate relevant columns to get a date column in form of YYYY-MM-DD
 
 In the Udemy course, seasonality of all room types combined was analysed. Some seasonality was observed with higher arrivals in summer time compared to winter time. Can we see the same sesonality at the level of room type? I repeated the same analysis but only focusing on the most popular room tyoe, i.e. roomm type A and D.
 
-<img width="1054" height="391" alt="Screenshot 2026-02-02 at 4 25 42 PM" src="https://github.com/user-attachments/assets/4ae1ce1e-4957-400d-b2d2-9a91edf719f2" />
+<img width="1112" height="648" alt="Screenshot 2026-02-06 at 3 52 49 PM" src="https://github.com/user-attachments/assets/79d9368a-be90-4476-b0a3-4dae8a34cce3" />
+
+<img width="1242" height="459" alt="Screenshot 2026-02-06 at 3 52 37 PM" src="https://github.com/user-attachments/assets/f506b893-4e6b-4cdd-bcfc-b833c94e0ef8" />
 
 ### 📆 Inference: Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.
 
