@@ -90,6 +90,13 @@ In the Udemy course, seasonality of all room types combined was analysed. Some s
 
 <img width="1242" height="459" alt="Screenshot 2026-02-06 at 3 52 37 PM" src="https://github.com/user-attachments/assets/f506b893-4e6b-4cdd-bcfc-b833c94e0ef8" />
 
+To test the statistical significance of these differences identified visually between summer and winter months, I imported library scipy.stats to conduct Mann–Whitney U test test on the differentce in number of guest arrival between summer months (June, July, August) and winter months (December, January, February). For all room types combined, room type A and room type D, the p values were all 0, indicating significant difference in number of guest arrival between summer and winter.
+
+Between room types: Kruskal–Wallis statistic: 12594.264: P-value: 0.00000
+
+Statistic Inference: It means the differences in ADR between market segments and between room types are statistically significant (p<0.05, rejecting the null hypothesis that the ADR distributions are the same across all market segments).The extent of ADR separation is also large as indicated by the large Kruskal–Wallis statistic.
+
+
 ### 📆 Inference: Clear seasonality observed in room type D between 2016-2017: higher guest numbers in summer, lower in winter—especially noticeable between 2016–2017.
 
 ---
