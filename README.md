@@ -2,7 +2,7 @@
 
 So earlier this month, I bought another Udemy course 'Data Analysis Real world use-cases- Hands on Python' by Shan Singh. After completing it and learning some insigthul analyses, I had some ideas of how to get some more interesting insights from this dataset. So, I did a couple of extra analyses, which is what this repository is about. For the sake of completness, I included the analyses of origin of customers as part of the exploratory analysis.
 
-This project explores hotel booking data to uncover insights about **guest origins,room allocation, market segments and room types, guest origins, and seasonality** in order to answer key business questions relevant to the hospitality industry.
+This project explores hotel booking data and uses analytical, statistical and visualistion libraries in Python to uncover insights about **guest origins,room allocation, market segments and room types, guest origins, and seasonality** in order to answer key business questions relevant to the hospitality industry.
 
 ---
 
@@ -19,6 +19,7 @@ This project explores hotel booking data to uncover insights about **guest origi
 * **pandas** 
 * **matplotlib** 
 * **seaborn**
+* **Scipy**
 * **plotly (for interactive plots!)**
 * **Jupyter Notebook**
 
