@@ -124,7 +124,7 @@ My next queestion would be, since we have a couple of room types and market segm
 
 <img width="1030" height="597" alt="Screenshot 2026-02-04 at 2 34 08 PM" src="https://github.com/user-attachments/assets/9addc2ec-bb98-41fb-9089-798e9b9d3a70" />
 
-Both of looked informative. However, I am interested in the intention/peference of the market segment, at the end day it is the market who choose the room, not the other way round! **I would choose the second figure.**
+Both of looked informative. However, I am interested in the intention/peference of the market segment, at the end of the day it is the market who choose the room, not the other way round! **I would choose the second figure.**
 
 ### 📈 Inference: Based on the second figure, all known market segments tend to reserve room type A, which explains the highest room type A reservation among all room types.
 
